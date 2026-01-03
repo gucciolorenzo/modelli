@@ -11,35 +11,32 @@ body {
 }
 
 /* HERO SECTION */
+/* HERO SECTION */
 .hero {
     height: 100dvh;
-    width: 100%;
     
-    /* SFONDO */
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.5)), 
+    /* CORREZIONE 1: Deve essere SEMPRE 100% per coprire lo schermo */
+    width: 100%; 
+    
+    background: linear-gradient(to bottom, rgba(0,0,0,0.05), rgba(0,0,0,0.9)), 
                 url('../assets/home-bg-mobile.jpg');
     background-size: cover;
     background-position: center;
     
-    /* LAYOUT FLEXBOX */
     display: flex;
     flex-direction: column;
     
-    /* Spinge testo in alto e bottone in basso */
+    /* CORREZIONE 2: Avevi cancellato questo comando */
     justify-content: space-between; 
     
-    /* Centra orizzontalmente il blocco testo e il bottone */
     align-items: center; 
     
-    /* Padding ridotti per far stare tutto nello schermo */
     padding-top: 50px; 
     padding-bottom: 200px; 
     
-    width: 90%; /* Leggermente più largo per sicurezza */
-    color: #D4AF37; /* Colore Oro (come nell'immagine) */
+    /* CORREZIONE 3: Ho spostato i colori e i font qui, ma tolto il width 90% */
+    color: #D4AF37; 
     font-family: 'Times New Roman', Times, serif;
-    
-    /* FORZA IL CENTRAGGIO DEL TESTO */
     text-align: center;
 }
 
