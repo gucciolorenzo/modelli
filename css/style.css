@@ -148,5 +148,23 @@ body {
     font-family: 'Times New Roman', serif;
     font-size: 0.6rem;
     color: #D4AF37; /* Prezzo Oro */
-    font-weight: bold;
+
+}
+/* --- STILE BOTTONE ACQUISTA (SHOP) --- */
+.product-card .btn-shop {
+    /* Forza il colore Oro, dato che siamo dentro una scheda bianca */
+    color: #D4AF37;
+    border-color: #D4AF37;
+    
+    /* Aggiunge spazio sopra il bottone */
+    margin-top: 15px;
+    
+    /* Riduciamo leggermente le dimensioni rispetto al bottone della Hero */
+    padding: 5px 20px;
+    font-size: 0.5rem;
+}
+
+/* Effetto Hover specifico per il bottone shop */
+.product-card .btn-shop:hover {
+    background-color: rgba(212, 175, 55, 0.1); /* Alone dorato */
 }
