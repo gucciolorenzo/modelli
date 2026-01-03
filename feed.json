@@ -1,0 +1,25 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "annihandmade",
+    "description": "",
+    "home_page_url": "https://gucciolorenzo.github.io/modelli",
+    "feed_url": "https://gucciolorenzo.github.io/modelli/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Lorenzo Santini"
+    },
+    "items": [
+        {
+            "id": "https://gucciolorenzo.github.io/modelli/i-nostri-modelli.html",
+            "url": "https://gucciolorenzo.github.io/modelli/i-nostri-modelli.html",
+            "title": "I nostri modelli",
+            "author": {
+                "name": "Lorenzo Santini"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-01-03T15:47:37+01:00",
+            "date_modified": "2026-01-03T15:52:37+01:00"
+        }
+    ]
+}
