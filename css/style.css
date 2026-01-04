@@ -33,7 +33,7 @@
     width: 100%;
     height: 60px; /* Abbastanza alta da coprire logo e icona */
     
-    background-color: color-mix(in srgb, var(--bg-light) 90%, transparent);
+    background-color: color-mix(in srgb, var(--bg-light) 55%, transparent);
     
     /* Effetto vetro smerigliato (Molto elegante) */
     backdrop-filter: blur(8px);
